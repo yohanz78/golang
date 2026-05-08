@@ -34,4 +34,4 @@ Berikut adalah gambaran komprehensif mengenai apa yang membuat Golang sangat men
 
 4. Nilai Strategis di Pasar Kerja
 
-Bagi pengembang yang ingin memperkuat pijakan di ranah backend, memasukkan karya berbasis Golang ke dalam sebuah portofolio adalah langkah yang sangat cerdas. Banyak perusahaan, mulai dari startup hingga enterprise, bermigrasi ke arsitektur microservices dan secara aktif mencari talenta yang mampu menangani trafik tinggi dan pemrosesan data asinkron menggunakan Go.
+    Bagi pengembang yang ingin memperkuat pijakan di ranah backend, memasukkan karya berbasis Golang ke dalam sebuah portofolio adalah langkah yang sangat cerdas. Banyak perusahaan, mulai dari startup hingga enterprise, bermigrasi ke arsitektur microservices dan secara aktif mencari talenta yang mampu menangani trafik tinggi dan pemrosesan data asinkron menggunakan Go.
