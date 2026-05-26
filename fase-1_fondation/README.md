@@ -3,16 +3,16 @@
 Table of Contents
 
 - [Sesi 1: Setup Lingkungan dan "Hello, World" Steroid](#sesi-1-setup-lingkungan-dan-hello-world-steroid)
-  - [Setup Lingkungan](#setup-lingkungan)
-  - [Konsep Inti](#konsep-inti)
-  - [Deklarasi Variabel (2 Cara Utama)](#deklarasi-variabel-2-cara-utama)
+    - [Setup Lingkungan](#setup-lingkungan)
+    - [Konsep Inti](#konsep-inti)
+    - [Deklarasi Variabel (2 Cara Utama)](#deklarasi-variabel-2-cara-utama)
 - [Sesi 2: Control Flow \& Data Collections](#sesi-2-control-flow--data-collections)
-  - [1. Data Collections (Menyimpan Banyak Data)](#1-data-collections-menyimpan-banyak-data)
-  - [2. Control Flow (Alur Logika)](#2-control-flow-alur-logika)
+    - [1. Data Collections (Menyimpan Banyak Data)](#1-data-collections-menyimpan-banyak-data)
+    - [2. Control Flow (Alur Logika)](#2-control-flow-alur-logika)
 - [Sesi 3: Structs, Methods, dan Interfaces](#sesi-3-structs-methods-dan-interfaces)
-  - [1. Structs (Pengganti Class)](#1-structs-pengganti-class)
-  - [2. Methods (Fungsi yang Menempel pada Struct)](#2-methods-fungsi-yang-menempel-pada-struct)
-  - [3. Interfaces (Kontrak Perilaku)](#3-interfaces-kontrak-perilaku)
+    - [1. Structs (Pengganti Class)](#1-structs-pengganti-class)
+    - [2. Methods (Fungsi yang Menempel pada Struct)](#2-methods-fungsi-yang-menempel-pada-struct)
+    - [3. Interfaces (Kontrak Perilaku)](#3-interfaces-kontrak-perilaku)
 
 # Sesi 1: Setup Lingkungan dan "Hello, World" Steroid
 
@@ -82,3 +82,12 @@ Method adalah fungsi biasa, tetapi ia "menempel" pada sebuah tipe data (biasanya
 Interface hanya berisi daftar nama _method_ (tanpa isi/logikanya). Jika sebuah Struct memiliki semua _method_ yang ada di dalam Interface, maka Struct tersebut secara otomatis dianggap mengimplementasikan Interface tersebut (tanpa perlu keyword `implements`).
 
 - **Fungsi Utama:** Membuat kode lebih fleksibel dan modular.
+
+**Key Differences at a Glance**
+
+| Feature       | Struct                               | Interface                                           |
+| ------------- | ------------------------------------ | --------------------------------------------------- |
+| Purpose       | To store data and state.             | To define behavior and abstraction.                 |
+| Content       | Fields (data) and Methods (logic).   | Only method signatures.                             |
+| Inheritance   | None; uses composition/embedding.    | None; uses interface embedding.                     |
+| Instantiation | Can be created as a concrete object. | Cannot be created directly; holds a concrete value. |
